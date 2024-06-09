@@ -4,7 +4,7 @@ const app = express();
 const PORT = 8000;
 
 app.get("/", (req, res) => {
-  res.send("Hello World");
+  res.send("Все супер! https://github.com/bodik87/server");
 });
 
 app.get("/about", (req, res) => {
